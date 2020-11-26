@@ -1,18 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name:   serverStart
+   File Name:   __init__.py
    Description:
    Author:      shira
-   CreateDate:  2020/9/2
+   CreateDate:  2020/11/25
 -------------------------------------------------
    Change Activity:
-                2020/9/2:
+                2020/11/25:
 -------------------------------------------------
 """
 __author__ = 'shira'
-
-from server import create_server
-from server import extensions
-
-server = create_server('127.0.0.1', 9000)

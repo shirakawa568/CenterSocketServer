@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name:   serverStart
+   File Name:   extensions
    Description:
    Author:      shira
-   CreateDate:  2020/9/2
+   CreateDate:  2020/11/26
 -------------------------------------------------
    Change Activity:
-                2020/9/2:
+                2020/11/26:
 -------------------------------------------------
 """
 __author__ = 'shira'
 
-from server import create_server
-from server import extensions
+from units.logger import Logger
 
-server = create_server('127.0.0.1', 9000)
+logging = Logger('SocketServer', file='log\\')
